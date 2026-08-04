@@ -17,14 +17,13 @@
     --cream:#FFFBFA;
     --plum:#28212A;
     --peach:#E9A796;
-    --brown:#401F18;
     --serif:"Fraunces",Georgia,serif;
     --sans:"Ubuntu",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
     --display:"Open Sans",var(--sans);
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   html{scroll-behavior:smooth;}
-  body{font-family:var(--sans);background:var(--cream);color:var(--brown);line-height:1.55;}
+  body{font-family:var(--sans);background:var(--cream);color:var(--plum);line-height:1.55;}
   img{display:block;max-width:100%;}
   h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;}
 
@@ -33,7 +32,7 @@
   .hero-tagline{font-family:var(--serif);color:var(--cream);text-align:left;text-transform:uppercase;letter-spacing:.12em;font-size:clamp(.85rem,1.4vw,1.2rem);margin-bottom:clamp(1.5rem,3vw,2.5rem);}
   .hero-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.75rem,2vw,1.75rem);}
   .hero-photos img{width:100%;aspect-ratio:4/3;object-fit:cover;}
-  .hero-wordmark{font-family:var(--display);font-weight:700;color:#000;font-size:clamp(3rem,14vw,13rem);line-height:1;margin-top:clamp(1.5rem,3.5vw,3rem);user-select:none;display:flex;justify-content:space-between;}
+  .hero-wordmark{font-family:var(--display);font-weight:700;color:var(--plum);font-size:clamp(3rem,14vw,13rem);line-height:1;margin-top:clamp(1.5rem,3.5vw,3rem);user-select:none;display:flex;justify-content:space-between;}
 
   /* ---------- Burger menu ---------- */
   .menu-btn{position:fixed;top:1.1rem;right:1.1rem;z-index:60;width:52px;height:52px;border:none;border-radius:50%;background:var(--plum);cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;}
@@ -70,7 +69,7 @@
   /* ---------- Who we are ---------- */
   .members-intro{text-align:center;}
   .members-intro p{font-size:clamp(1rem,1.35vw,1.25rem);}
-  .members{background:var(--cream);color:var(--brown);padding:clamp(2.5rem,5vw,4.5rem) clamp(1.5rem,4.5vw,4.5rem);display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.75rem,3.5vw,3rem) clamp(2rem,5vw,4.5rem);}
+  .members{background:var(--cream);color:var(--plum);padding:clamp(2.5rem,5vw,4.5rem) clamp(1.5rem,4.5vw,4.5rem);display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.75rem,3.5vw,3rem) clamp(2rem,5vw,4.5rem);}
   .member h3{color:var(--peach);font-size:clamp(1.6rem,2.4vw,2.2rem);margin-bottom:.35em;}
   .member p{font-size:clamp(1rem,1.35vw,1.25rem);}
 
@@ -82,7 +81,7 @@
   .card h3{font-size:clamp(1.25rem,1.8vw,1.6rem);line-height:1.3;margin:1.1em 0 .6em;}
   .card p{font-size:clamp(.95rem,1.15vw,1.1rem);padding:0 .5rem;}
   .card .btn{margin-top:auto;padding-top:1.5rem;}
-  .btn a{display:inline-block;background:var(--olive);color:var(--plum);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:clamp(.85rem,1.05vw,1rem);padding:.9em 1.6em;border-radius:2em;text-decoration:none;}
+  .btn a{display:inline-block;background:var(--peach);color:var(--plum);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:clamp(.85rem,1.05vw,1rem);padding:.9em 1.6em;border-radius:2em;text-decoration:none;}
   .btn a:hover{filter:brightness(1.12);}
 
   /* ---------- Gather with us ---------- */
@@ -119,7 +118,7 @@
 <nav class="site-nav" aria-label="Site sections">
   <a href="#top" onclick="document.body.classList.remove('menu-open')">Home</a>
   <a href="#what-is" onclick="document.body.classList.remove('menu-open')">What is sijelo?</a>
-  <a href="#who-is" onclick="document.body.classList.remove('menu-open')">Who is sijelo?</a>
+  <a href="#who-is" onclick="document.body.classList.remove('menu-open')">Who is Sijelo?</a>
   <a href="#what-we-do" onclick="document.body.classList.remove('menu-open')">What we do</a>
   <a href="#who-we-are" onclick="document.body.classList.remove('menu-open')">Who we are</a>
   <a href="#gatherings" onclick="document.body.classList.remove('menu-open')">Previous Gatherings</a>
@@ -155,10 +154,10 @@
 
 <!-- ================= WHO IS SIJELO ================= -->
 <section class="dark" id="who-is">
-  <h2>Who is sijelo?</h2>
-  <p class="lede">A collective of womxn* artists, creatives and activists dedicated to addressing the intertwined challenges of displacement, racial justice, and climate justice gathers.</p>
+  <h2>Who is Sijelo?</h2>
+  <p class="lede">A collective of womxn* artists, creatives and activists dedicated to addressing the intertwined challenges of displacement, racial justice, and climate justice.</p>
   <div class="cols-2">
-    <p>Our Gathering (in person) is a continuation of our shared journey with a group of womxn practitioners that began in November 2023 &mdash; one built on connections around collaboration, creativity, and radical care. Together, we will continue to shape this space, allowing our practices to speak of our own and each other&rsquo;s work. In-person gathering is fundamental to continuing our work, valuing the importance of physical spaces and interactions.</p>
+    <p>Each Gathering (in person) is a continuation of our shared journey with a group of womxn practitioners that began in November 2023 &mdash; one built on connections around collaboration, creativity, and radical care. Together, we will continue to shape this space, allowing our practices to speak of our own and each other&rsquo;s work. In-person gathering is fundamental to continuing our work, valuing the importance of physical spaces and interactions.</p>
     <div>
       <p>Sijelo has been chosen as our collective name and artistic practice because it holds layered meanings that reflect the social, embodied, and relational nature of our work. We are dispersed across the United Kingdom, Sijelo will allow us to come together in a multitudinal happening, including conversations, makings and visual art to unlock unheard voices.</p>
       <p class="footnote">*We use this term to include transgender women and nonbinary people.</p>
@@ -170,7 +169,7 @@
 <section class="split rev" id="what-we-do">
   <div class="text-col">
     <h2>What we do</h2>
-    <p>We run workshops, events and gatherings based on the philosophy of Emergent Strategy by Adrienne Maree Brown. Brown emphasises that profound change begins with small, intentional actions, as we engage in intimate, radical conversations that plant the seeds of transformation. These dialogues&mdash; full of insight, discomfort, and revelation&mdash; hold the power to shape movements that confront and dismantle systems of oppression.</p>
+    <p>We run workshops, events and gatherings based on the philosophy of Emergent Strategy by adrienne maree brown. brown emphasises that profound change begins with small, intentional actions, as we engage in intimate, radical conversations that plant the seeds of transformation. These dialogues&mdash; full of insight, discomfort, and revelation&mdash; hold the power to shape movements that confront and dismantle systems of oppression.</p>
     <p>A key question we explore is how we continue to work together and also how to document these radical conversations&mdash; capturing their transformative potential in a way that resonates with broader audiences and allies. Our aim is not just to record but to craft narratives that carry forward the energy and intent of our collective work.</p>
     <p>As adrienne maree brown reminds us, &ldquo;small is all.&rdquo; Every action, every conversation is an opportunity to shape the future we want&mdash; a future where justice, care, and freedom for all are central to our movements.</p>
   </div>
@@ -188,7 +187,7 @@
 <!-- ================= WHO WE ARE ================= -->
 <section class="dark members-intro" id="who-we-are">
   <h2>Who we are</h2>
-  <p>Our members change from project to project, however at the moment our core organising group are:</p>
+  <p>Our members change from project to project, however at the moment our core group includes:</p>
 </section>
 <section class="members">
   <div class="member">
